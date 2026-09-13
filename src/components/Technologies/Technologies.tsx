@@ -15,7 +15,7 @@ const Technologies = ({ technologyPromise }: TechnologyProps) => {
   const handleAddToStack = (technology: ttype) => {
     setSelectedTechnologies((prev) => [...prev, technology]);
 
-    
+    toast.success(`${technology.name} added to your stack!`);
   };
   const handleRemoveFromStack = (id: number) => {
     setSelectedTechnologies((prev) =>
