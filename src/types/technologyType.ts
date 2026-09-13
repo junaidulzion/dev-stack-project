@@ -6,6 +6,6 @@ export interface ttype {
     description:string;
     icon: string;
     rating: number;
-    defficulty: string;
+    difficulty: string;
 
 }

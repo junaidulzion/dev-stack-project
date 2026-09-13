@@ -1,4 +1,4 @@
-import React, { use, useState } from "react";
+import { use, useState } from "react";
 import { toast } from "react-toastify";
 import type { ttype } from "../../types/technologyType";
 import AvailableTechnology from "./AvailableTechnology";
